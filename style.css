@@ -1,1 +1,13 @@
+.fondo{
+    position: absolute;
+    z-index: -1;
+}
+.logo-letra{
+    position: absolute;
+    z-index: 1;
 
+}
+.titulo-principal{
+    text-align: center;
+    font-size: xx-large;
+}
