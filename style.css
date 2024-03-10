@@ -22,3 +22,8 @@ body{
     margin-top: 20px;
     color: white;
 }
+.mensaje{
+    width: 25px;
+    height: 25px;
+    border: 5px;
+}
