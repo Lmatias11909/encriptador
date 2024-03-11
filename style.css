@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(28 12 25);
+    font-optical-sizing: auto;
+}
+
+.fondo{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+
+}
+.logo-letra{
+    position: absolute;
+    z-index: 1;
+    margin: 20px;
+
+}
+  
+.titulo-principal{
+    text-align: center;
+    font: 3em sans-serif;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 20px;
+    color: white;
+}
+
+.mensaje1{
+    position: absolute;
+    width: 60%;
+    height: 100px;
+    left: 40px;
+    top: 168px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    border-radius: 24px;
+}
+
+.mensaje2{
+    position: absolute;
+width: 20%;
+height: 781px;
+right: 66px;
+top: 168px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+/* or 36px */
+border-radius: 34px;
+
+/* Gray/gray-400 */
+color: #495057;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 20px;
+    top: 885px;
+    border-radius: 15px;
+    }
+button{
+        width: 300px;
+        height: 80px;
+        font: 2em sans-serif;
+        font-style: italic;
+        font: bold;
+        border-radius: 15px;
+    }
+    .indicaciones{
+        color: white;
+        font-size: 1.5em;
+        font-style: italic;
+        font: bold;
+        text-align:unset;
+        
+    }
+
+
+
+
+
+
+
